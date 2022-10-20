@@ -1,5 +1,121 @@
-/* remove this code and add your own! */
-.greeting {
-  color: green;
-  font-size: 30px;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: whitesmoke;
+  font-family: 'Ubuntu', sans-serif;
+}
+.grid-container {
+  display: grid;
+  grid-template-areas: 'main main main header header'
+  'main main main header header';
+}
+#profile-picture {
+  border-radius: 50%;
+  height: 270px;
+  width: 280px;
+  border: 3px solid gray;
+  text-align: center;
+}
+
+
+.contact-info-container {
+  background-color: navy;
+  color: #ffffff;
+  grid-area: header;
+  margin-right: 40px;
+  margin-top: 50px;
+  padding-top: 20px;
+  width: 300px;
+  text-align: center;
+  border: 5px solid black;
+}
+
+#name-and-title {
+  background-color: navy;
+  color: #ffffff;
+  padding: 5px;
+  padding-top: 10px;  
+}
+
+#contact-info {
+  background-color: lightslategray;
+  color: #ffffff;
+  padding: 10px;
+  padding-bottom: 40%;
+  padding-top: 20%;
+}
+
+main {
+  margin-left: 20px;
+  margin-top: 20px;
+  line-height: 1.5;
+}
+
+.resume-heading {
+  color: navy;
+  text-transform: uppercase;
+  margin-top: 20px;
+}
+
+.job-title {
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+#working-dates {
+  color: gray;
+  text-align: right;
+  width: 89%;
+}
+
+.job-city-state {
+  color: gray;
+  margin-top: -10px;
+}
+
+.job-summary {
+  max-width: 89%;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.career-profile {
+  grid-area: main;
+}
+
+.experiences {
+  grid-area: main;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+#github :hover {
+  color: orange;
+  cursor: pointer;
+}
+
+#linked-in :hover {
+  color: orange;
+  cursor: pointer;
+}
+
+#e-mail :hover {
+  color: orange;
+  cursor: pointer;
+}
+
+#phone :hover {
+  color: orange;
+  cursor: pointer;
+}
+
+i {
+  font-size: 20px;
 }
