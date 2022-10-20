@@ -1,5 +1,90 @@
 /* remove this code and add your own! */
-.greeting {
-  color: green;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+p {
+  margin-left: 30px;
+  margin-top: 20px;
+  word-spacing: 2px;
+  letter-spacing: .5px;
+  line-height:22px;
+}
+header {
+  background-color: teal;
+  width: '100%';
+  text-align: center;
+}
+
+.name {
+  padding-top: 30px;
+}
+.address {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  padding: 20px;;
+}
+.title {
+
   font-size: 30px;
+  color: darkcyan;
+}
+.city {
+  margin-right: 420px;
+  /* margin-bottom: 20px; */
+  margin-top: 20px;
+  opacity: 0.5;
+}
+
+.year {
+  opacity: 0.5;
+  margin-top: 20px;
+
+}
+
+img {
+  width: 30px;
+  height: 30px;
+  background-color:darkcyan;
+  border-radius: 25px;
+  margin-right: 20px;
+
+}
+/* main */
+.career-profile {
+  display: flex;
+  margin: 30px;
+  
+}
+.experiences-container {
+  display: flex;
+ 
+  
+}
+.experience {
+  display: flex;
+  margin-top: 40px;
+  margin-left: 30px;;
+  color: darkcyan;
+}
+
+.position {
+  
+    margin-left: 30px;
+    margin-top: 30px;
+  
+}
+/* footer */
+footer {
+  background-color: rgb(105, 150, 150);
+  width: '100%';
+  margin-top: 180px;;
+}
+footer ul{
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  padding: 20px;;
 }
